@@ -1,12 +1,12 @@
-### 一，MyBatis介绍
-- MyBatis 是支持普通SQL查询,存储过程和高级映射的优秀持久层框架。
-- MyBatis消除了几乎所有的JDBC代码和参数的手工设置以及结果集的检索。
-- MyBatis 使用简单的XML或注解用于配置和原始映射,将接口和 Java 的 POJOs映射成数据库中的记录。
+### `一，MyBatis介绍`
+- `MyBatis 是支持普通SQL查询,存储过程和高级映射的优秀持久层框架。`
+- `MyBatis消除了几乎所有的JDBC代码和参数的手工设置以及结果集的检索。`
+- `MyBatis 使用简单的XML或注解用于配置和原始映射,将接口和 Java 的 POJOs映射成数据库中的记录。`
 
-### 二，配置MyBatis环境
-##### （1）创建Maven项目
-##### （2）添加架包依赖
-在pom.xml添加配置文件
+### `二，配置MyBatis环境`
+##### `（1）创建Maven项目`
+##### `（2）添加架包依赖`
+`在pom.xml添加配置文件`
 ```
 	<dependencies>
 		<!--2: 数据库相关 -->
@@ -47,7 +47,7 @@
 	</build>
 ```
 
-### 三，在资源文件中创建mybatis.xml的配置文件
+### `三，在资源文件中创建mybatis.xml的配置文件`
 
 
 ```
@@ -75,7 +75,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 </configuration>
 ```
 
-### 四，配置对象的配置文件
+### `四，配置对象的配置文件`
 
 
 ```
@@ -94,7 +94,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 
 ```
 
-### 五，创建TeacherMapper接口
+### `五，创建TeacherMapper接口`
 
 ```
 public interface TeacherMapper {
@@ -104,9 +104,9 @@ public interface TeacherMapper {
 	public List<Teacher> selectAllTeacher();
 }
 ```
-### 六，创建Teacher对象 
+### `六，创建Teacher对象` 
 
-Teacher
+`Teacher`
 ```
 public class Teacher {
 	private int id;
@@ -117,7 +117,7 @@ public class Teacher {
 }
 ```
 
-### 七，创建工具类
+### `七，创建工具类`
 
 ```
 public class DBUtil {
