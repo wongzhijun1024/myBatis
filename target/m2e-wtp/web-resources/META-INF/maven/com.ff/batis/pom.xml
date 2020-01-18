@@ -11,8 +11,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.35</version>
-			<scope>runtime</scope>
+			<version>8.0.17</version>
 		</dependency>
 		<!-- DAO框架:MyBatis -->
 		<dependency>
