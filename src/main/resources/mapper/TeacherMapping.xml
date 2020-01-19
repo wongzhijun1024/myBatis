@@ -9,6 +9,11 @@
 	<select id="selectAllTeacher" resultType="com.ff.po.Teacher">
 		select id, name, sex, age, pwd from teacher
 	</select>
+		<select id="selectAllClassAndStu" resultType="com.ff.po.ClazzStu">
+		select  clazz.id as clazzid, clazz.name as clazzname, 
+		stu.id as stuid, stu.name as stuname, sex as stusex
+		from stu inner join clazz on clazz.id=stu.fclazzid
+	</select>
 </mapper>
 
 

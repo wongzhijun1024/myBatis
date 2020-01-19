@@ -19,5 +19,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	
 	<mappers>
 		<mapper resource="mapper/TeacherMapping.xml" />   <!-- 指定映射 -->
+		<mapper resource="mapper/ClazzMapping.xml" />
 	</mappers>
 </configuration>
