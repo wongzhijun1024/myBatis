@@ -1,7 +1,7 @@
 # myBatis
 > 这是一个myBatis的教程
 
-#### <a href="[https://github.com/hwdeveloper/myBatis/wiki/01-MyBatis%E5%85%A5%E9%97%A8](https://github.com/hwdeveloper/myBatis/wiki/01-MyBatis入门)">一，MyBatis入门</a>
+#### <a href="https://github.com/hwdeveloper/myBatis/wiki/01-MyBatis入门">一，MyBatis入门</a>
 
 这一节主要讲解了myBatis的介绍和环境搭建。
 
@@ -18,3 +18,4 @@
 这章是在myBatis是常用的，技术含量很一般
 
 # 
+
